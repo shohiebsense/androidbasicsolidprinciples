@@ -1,10 +1,9 @@
 package com.shohiebsense.solidprinciplessample.liskov.bad.car
 
-import com.shohiebsense.solidprinciplessample.liskov.good.car.Bmw
-import com.shohiebsense.solidprinciplessample.liskov.good.car.Car
-import com.shohiebsense.solidprinciplessample.liskov.good.car.Fiat
-import com.shohiebsense.solidprinciplessample.liskov.good.car.MiniCooper
-import com.shohiebsense.solidprinciplessample.openclosedprinciple.good.car.Volkswagen
+import com.shohiebsense.solidprinciplessample.liskov.bad.car.Bmw
+import com.shohiebsense.solidprinciplessample.liskov.bad.car.Car
+import com.shohiebsense.solidprinciplessample.liskov.bad.car.Fiat
+import com.shohiebsense.solidprinciplessample.liskov.bad.car.MiniCooper
 
 abstract class Car(val name : String) {
     abstract var doorsCount : Int

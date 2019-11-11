@@ -7,4 +7,10 @@ class Manager: IManager {
     override fun addWorker(worker: IWorker) {
         workers.add(worker)
     }
+
+    override fun manageWorkers() {
+        workers.forEach {
+            it.work()
+        }
+    }
 }
